@@ -1,0 +1,26 @@
+# OAuth2
+spring.security.oauth2.client.registration.medallia.client-id = YOUR_CLIENT_ID
+spring.security.oauth2.client.registration.medallia.client-secret = YOUR_CLIENT_SECRET
+spring.security.oauth2.client.registration.medallia.authorization-grant-type = client_credentials
+spring.security.oauth2.client.provider.medallia.token-uri = https://YOURINSTANCE.medallia.com/oauth/YOURCOMPANY/token
+
+# Query API
+medallia.queryapi.url = https://YOURCOMPANY.apis.medallia.com/data/v0/query
+
+medallia.queryapi.num.records.per.request = 1000
+
+medallia.queryapi.default.start.surveyid = 1234567890
+medallia.queryapi.default.start.timestamp.epoch = 1577836800
+
+medallia.queryapi.graphql.filter = \
+    { fieldIds: ["e_status"], in: ["0", "1"] } \
+    { fieldIds: ["e_development_cycle_alt"], in: ["3"] }
+
+medallia.queryapi.field.initialfinishdate.epoch = k_initialfinishdate_epoch_int
+
+# Application Behavior
+medallia.queryapi.poll.initialdelay.msec = 10000
+medallia.queryapi.poll.interval.msec = 600000
+
+# Persistence
+#spring.datasource.url = jdbc:sqlite:feedbackdatasync.db
