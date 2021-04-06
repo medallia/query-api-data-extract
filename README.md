@@ -89,7 +89,7 @@ then run the following commands:
 
 ## License
 
-Copyright 2020.  Medallia, Inc.
+Copyright 2020, 2021.  Medallia, Inc.
     
 Licensed under the Apache License, Version 2.0 (the "License"); you may
 not use this file except in compliance with the License.  You may obtain
