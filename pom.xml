@@ -30,7 +30,7 @@
 
   <groupId>medallia-query-api-reference-implementations</groupId>
   <artifactId>query-api-data-extract</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.1-SNAPSHOT</version>
 
   <organization>
     <name>Medallia, Inc.</name>
@@ -55,14 +55,14 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.2.7.RELEASE</version>
+    <version>2.4.4</version>
   </parent>
 
   <properties>
     <!-- The main class to start by executing java -jar -->
     <start-class>com.medallia.references.feedbackdatasync.Application</start-class>
 
-    <guava.version>29.0-jre</guava.version>
+    <guava.version>30.1.1-jre</guava.version>
     <httpclient.version>4.5.12</httpclient.version>
     <java.version>11</java.version>
   </properties>
@@ -91,7 +91,7 @@
     <dependency>
       <groupId>org.springframework.security</groupId>
       <artifactId>spring-security-oauth2-client</artifactId>
-      <version>5.3.2.RELEASE</version>
+      <version>5.4.5</version>
     </dependency>
 
     <dependency>
@@ -107,7 +107,7 @@
     <dependency>
       <groupId>org.xerial</groupId>
       <artifactId>sqlite-jdbc</artifactId>
-      <version>3.31.1</version>
+      <version>3.34.0</version>
     </dependency>
 
     <dependency>
@@ -152,7 +152,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.3</version>
+        <version>3.8.1</version>
         <configuration>
           <source>${java.version}</source>
           <target>${java.version}</target>
