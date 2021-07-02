@@ -91,7 +91,7 @@
     <dependency>
       <groupId>org.springframework.security</groupId>
       <artifactId>spring-security-oauth2-client</artifactId>
-      <version>5.4.5</version>
+      <version>5.4.7</version>
     </dependency>
 
     <dependency>
