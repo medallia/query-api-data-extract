@@ -62,7 +62,7 @@
     <!-- The main class to start by executing java -jar -->
     <start-class>com.medallia.references.feedbackdatasync.Application</start-class>
 
-    <guava.version>30.1.1-jre</guava.version>
+    <guava.version>32.0.0-jre</guava.version>
     <httpclient.version>4.5.12</httpclient.version>
     <java.version>11</java.version>
   </properties>
